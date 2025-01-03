@@ -2,4 +2,5 @@
 
 
 First, the search converts all movie titles to TF-IDF to display a similar name (with an optional genre filter).
+
 Second, collaborative filtering recommends movies based on ratings and preferences.
