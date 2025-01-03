@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Recommender</h1>
+        
+        <label for="movie-title">Movie Title:</label>
+        <input type="text" id="movie-title" placeholder="Enter a movie title">
+        <label for="movie-genre">Genre:</label>
+        <input type="text" id="movie-genre" placeholder="Enter a genre (optional)">
+        <button id="search-btn">Search</button>
+
+        <div id="search-results"></div>
+
+        <hr>
+
+        <h2>Recommended Movies:</h2>
+        <div id="recommendations"></div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
